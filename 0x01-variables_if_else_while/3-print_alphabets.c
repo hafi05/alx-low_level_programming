@@ -16,5 +16,4 @@ char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	}
 	putchar('\n');
 	return (0);
-}
-	
+}	
