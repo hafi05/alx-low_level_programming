@@ -1,10 +1,15 @@
+#include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
-/* main - Print alphabete except q and e
+
+/**
+ * main - Prints the alphabet without q and e.
  *
- * Return Always : 0 (Success) */
-int main (void)
-	{
-		int i;
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int i;
 
 	for (i = 97; i < 123; i++)
 	{
@@ -16,4 +21,3 @@ int main (void)
 	putchar('\n');
 	return (0);
 }
-
